@@ -12,3 +12,12 @@
 - `virtualenv` é uma ferramenta para criar ambientes virtuais isolados em Python.
   ```bash
   pip install virtualenv
+  pip install virtualenv
+#Navegue até o diretório onde você deseja criar seu ambiente de desenvolvimento e execute
+##3 4. - virtualenv nome_do_ambiente
+
+### ative o ambiente de desenvolvimento 
+nome_do_ambiente\Scripts\activate
+
+Este arquivo lista todas as dependências do seu projeto, permitindo fácil instalação em outros ambientes.
+#pip freeze > requirements.txt
